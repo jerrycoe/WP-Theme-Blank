@@ -4,5 +4,5 @@ A Wordpress Blank Theme, barebones in nature. Nearly empty, with the exception o
 
 ## Bundled Packages
 <ul>
-	<li>Bootstrap</li>
+	<li>Bootstrap 4.0.0</li>
 </ul>
