@@ -8,7 +8,7 @@ define('THEME_BASE_URL', get_template_directory_uri());
  */
 function wp_theme_blank_enqueue_style() {
 	wp_enqueue_style( 'bootstrap-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css', '4.0.0');
-	wp_enqueue_style( 'custom-css', 'style.css'); 
+	wp_enqueue_style( 'custom-css', THEME_BASE_URL. '/style.css'); 
 	wp_enqueue_style( 'dependency-specific-css', THEME_BASE_URL . '/resources/css/');
 }
 
